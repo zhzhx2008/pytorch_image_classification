@@ -93,6 +93,11 @@ if __name__ == '__main__':
     # classes = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
 
     # hymenoptera
+    # from:
+    # https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
+    # https://fancyerii.github.io/books/pytorch/
+    # data:
+    # https://download.pytorch.org/tutorial/hymenoptera_data.zip
     data_transforms = {
         'train': transforms.Compose([
             transforms.RandomResizedCrop(32),
